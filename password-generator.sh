@@ -26,7 +26,7 @@ elif [ "$1" = "-p" ]; then
 
 elif [ "$1" = "-c" ]; then
 
-  cat > /home/arduino/ProjetoFinal_linuxgit/senhageradas.txt 
+   > /home/arduino/ProjetoFinal_linuxgit/senhageradas.txt 
 fi
 
 # Imprime a senha gerada
