@@ -21,12 +21,12 @@ Opções:
 O comportamento padrão do script é gerar uma senha de 8 caracteres minúsculos."
 
 elif [ "$1" = "-p" ]; then
-  cat /home/arduino/ProjetoFinal_linuxgit/senhageradas.txt
+  cat /home/arduino/ProjetoFinal_linuxgit/passord.txt
 
 
 elif [ "$1" = "-c" ]; then
 
-   > /home/arduino/ProjetoFinal_linuxgit/senhageradas.txt 
+   > /home/arduino/ProjetoFinal_linuxgit/password.txt 
 fi
 
 # Imprime a senha gerada
