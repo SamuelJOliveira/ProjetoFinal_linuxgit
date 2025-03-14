@@ -19,7 +19,7 @@ Opções:
 -h : Exibir esse menu
 
 O comportamento padrão do script é gerar uma senha de 10 caracteres."
-
+  exit
 elif [ "$1" = "-p" ]; then
   cat password.txt
 
