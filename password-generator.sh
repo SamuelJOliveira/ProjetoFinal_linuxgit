@@ -33,4 +33,14 @@ fi
 # Adicione aqui também a implementação do código que salva a senha no passwords.txt e cria o arquivo caso ele não exista
 # Dica: lembre-se de utilizar o operador "-e" junto com a condicional "if"!
 echo "Senha gerada: $senha"
+if [ "$senha_gerada" = true ]; then
+	echo "$senha" >> password.txt
+else
 
+fi
+
+if [ -e "password.txt" = false ]; then 
+	touch "password.txt"
+else
+
+fi
